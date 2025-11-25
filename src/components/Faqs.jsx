@@ -52,19 +52,19 @@ const Faqs = () => {
 
   return (
     <div className="min-h-screen bg-[#060010] text-[#B19EEF] flex flex-col items-center px-4 py-12">
-      <h2 className="text-4xl font-bold text-[#B19EEF] mb-10">FAQ's</h2>
+      <h2 className="text-4xl font-bold text-[white] mb-10">FAQ's</h2>
 
       <div className="w-full max-w-3xl space-y-4">
         {faqs.map((faq, index) => (
           <div
             key={index}
-            className=" bg-[#100a1a] rounded-2xl shadow-md transition-all duration-300"
+            className=" bg-[#100a1a] rounded shadow-md transition-all duration-300"
           >
             <button
               onClick={() => toggleFAQ(index)}
               className="w-full flex justify-between items-center text-left px-6 py-1 focus:outline-none"
             >
-              <span className="text-lg font-medium text-[#B19EEF]">
+              <span className="text-lg font text-[#B19EEF]">
                 {faq.question}
               </span>
               <span className="text-[#B19EEF] text-2xl">
@@ -73,11 +73,10 @@ const Faqs = () => {
             </button>
 
             <div
-              className={`overflow-hidden transition-all duration-500 ${
-                openIndex === index ? "max-h-40 px-6 pb-4" : "max-h-0"
-              }`}
+              className={`overflow-hidden transition-all duration-500 ${openIndex === index ? "max-h-40 px-6 pb-4" : "max-h-0"
+                }`}
             >
-              <p className="text-[#B19EEF]">{faq.answer}</p>
+              <p className="text-[white]">{faq.answer}</p>
             </div>
           </div>
         ))}

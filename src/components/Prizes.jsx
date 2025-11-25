@@ -7,6 +7,7 @@ const prizes = [
     amount: "₹ 15,000",
     icon: "🥇",
     border: "border-yellow-400",
+    glow: "hover:shadow-yellow-400/50",
   },
   {
     id: 2,
@@ -14,6 +15,7 @@ const prizes = [
     amount: "₹ 10,000",
     icon: "🥈",
     border: "border-gray-300",
+    glow: "hover:shadow-gray-300/50",
   },
   {
     id: 3,
@@ -21,25 +23,28 @@ const prizes = [
     amount: "₹ 5,000",
     icon: "🥉",
     border: "border-orange-400",
+    glow: "hover:shadow-orange-400/50",
   },
 ];
 
 const Prizes = () => {
   return (
-    <section className="bg-[#02152E] text-[#CFFFE8] py-16 px-4">
-      <h2 className="text-center text-3xl font-extrabold tracking-widest mb-10">
+    <section className="bg-[#060010] text-[#CFFFE8] py-16 px-4 h-screen">
+      <h2 className="text-center text-4xl md:text-5xl font-extrabold tracking-widest mb-12 md:mb-16">
         PRIZES
       </h2>
 
-      <div className="flex flex-col items-center gap-6">
-        {prizes.map((prize) => (
+      <div className="flex flex-col md:flex-row justify-center items-center md:items-stretch gap-6 md:gap-8 max-w-5xl mx-auto">
+        {prizes.map((prize, index) => (
           <div
             key={prize.id}
-            className={`w-full max-w-xs border ${prize.border} rounded-2xl py-8 px-6 text-center bg-[#010A1D] shadow-lg transition-all duration-300 hover:scale-105 hover:shadow-[0_0_25px_rgba(255,255,255,0.4)] hover:bg-[#051933]`}
+            className={`w-full max-w-xs md:max-w-none md:flex-1 border-2 ${prize.border} rounded-2xl py-10 px-6 text-center bg-linear-to-br from-[#010A1D] to-[#020515] shadow-xl transition-all duration-300 hover:scale-105 ${prize.glow} hover:shadow-2xl hover:bg-linear-to-br hover:from-[#051933] hover:to-[#010A1D] ${index === 0 ? 'md:transform md:-translate-y-2' : ''}`}
           >
-            <div className="text-4xl mb-3">{prize.icon}</div>
-            <p className="text-lg font-semibold mb-2">{prize.title}</p>
-            <p className="text-3xl font-extrabold">{prize.amount}</p>
+            <div className="text-5xl md:text-6xl mb-4">{prize.icon}</div>
+            <p className="text-xl md:text-2xl font-bold mb-3 tracking-wide">{prize.title}</p>
+            <p className="text-3xl md:text-4xl font-extrabold bg-linear-to-r from-[#CFFFE8] to-white bg-clip-text text-transparent">
+              {prize.amount}
+            </p>
           </div>
         ))}
       </div>
