@@ -77,10 +77,16 @@ const HeroSection = () => {
                             </div>
 
                             <div className='flex gap-4 justify-center mt-8'>
-                                <button className='bg-[#1c4980] text-white font-semibold text-lg hover:bg-[#9F7EE8] hover:text-[#060010] transition-all duration-300 transform shadow-lg hover:shadow-xl rounded cursor-pointer flex items-center gap-2' style={{ paddingLeft: '2rem', paddingRight: '2rem', paddingTop: '0.75rem', paddingBottom: '0.75rem' }}>
+                                <a
+                                    href="https://pthknit.vercel.app/"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className='bg-[#1c4980] text-white font-semibold text-lg hover:bg-[#9F7EE8] hover:text-[#060010] transition-all duration-300 transform shadow-lg hover:shadow-xl rounded cursor-pointer flex items-center gap-2'
+                                    style={{ paddingLeft: '2rem', paddingRight: '2rem', paddingTop: '0.75rem', paddingBottom: '0.75rem' }}
+                                >
                                     <img src='/unstop-btn.png' alt="Unstop" className='h-5 w-5' />
                                     Apply on Unstop
-                                </button>
+                                </a>
                                 <button className='bg-transparent border text-white font-semibold text-lg hover:bg-[#9F7EE8] transition-all duration-300 transform shadow-lg hover:shadow-xl hover:text-[#060010] rounded cursor-pointer hidden md:block' style={{ paddingLeft: '2rem', paddingRight: '2rem', paddingTop: '0.75rem', paddingBottom: '0.75rem' }}>
                                     Learn More
                                 </button>

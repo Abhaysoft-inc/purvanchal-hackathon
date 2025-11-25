@@ -2,68 +2,58 @@ import { FaCity, FaHeartbeat, FaLeaf, FaShieldAlt, FaBookOpen } from 'react-icon
 
 export default function Tracks() {
     return (
-        <div className="bg-[#060010] min-h-screen text-white">
+        <div className="bg-[#060010] min-h-screen text-white pt-20">
+            {/* Added top padding so nothing overlaps */}
 
-            {/* Track Section */}
             <div className="px-4 py-6">
-                <h1 className="text-[#52ca84] font-extrabold tracking-tight text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl text-center">
+                <h1 className="text-[#52ca84] font-extrabold tracking-tight text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-center">
                     TRACKS
                 </h1>
 
-                <div className="mt-8 flex justify-center flex-wrap gap-6 sm:gap-8 md:gap-10 lg:gap-12">
+                <div className="mt-10 flex justify-center flex-wrap gap-6">
 
-
-                    {/* Card 1 */}
-                    <div className="w-60 h-80 sm:w-72 sm:h-80 md:w-80 md:h-85 lg:w-85 lg:h-90 bg-white/5 border border-white/30 rounded-2xl backdrop-blur-sm p-6 sm:p-8 flex flex-col items-center justify-center text-center shadow-lg">
-                        <FaCity className="text-[#B19EEF] text-4xl sm:text-5xl md:text-6xl lg:text-7xl mb-4" />
-                        <p className="text-white text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold leading-tight">
-                            Smart Cities & Sustainable Urban Tech
-                        </p>
-                    </div>
-
-
-
-                    {/* Card 2 */}
-                    <div className="w-60 h-80 sm:w-72 sm:h-80 md:w-80 md:h-85 lg:w-85 lg:h-90 bg-white/5 border border-white/30 rounded-2xl backdrop-blur-sm p-6 sm:p-8 flex flex-col items-center justify-center text-center shadow-lg">
-                        <FaHeartbeat className="text-[#9F7EE8] text-4xl sm:text-5xl md:text-6xl lg:text-7xl mb-4" />
-                        <p className="text-white text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold leading-tight">
-                            AI-Powered Health & Well-Being Solutions
-                        </p>
-                    </div>
-
-
-                    {/* Card 3 */}
-                    <div className="w-60 h-80 sm:w-72 sm:h-80 md:w-80 md:h-85 lg:w-85 lg:h-90 bg-white/5 border border-white/30 rounded-2xl backdrop-blur-sm p-6 sm:p-8 flex flex-col items-center justify-center text-center shadow-lg">
-                        <FaLeaf className="text-[#52ca84] text-4xl sm:text-5xl md:text-6xl lg:text-7xl mb-4" />
-                        <p className="text-white text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold leading-tight">
-                            Clean Energy, Climate Action & GreenTech
-                        </p>
-                    </div>
-
-
-                    {/* Card 4 */}
-                    <div className="w-60 h-80 sm:w-72 sm:h-80 md:w-80 md:h-85 lg:w-85 lg:h-90 bg-white/5 border border-white/30 rounded-2xl backdrop-blur-sm p-6 sm:p-8 flex flex-col items-center justify-center text-center shadow-lg">
-                        <FaShieldAlt className="text-[#B19EEF] text-4xl sm:text-5xl md:text-6xl lg:text-7xl mb-4" />
-                        <p className="text-white text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold leading-tight">
-                            Next Gen Cyber Threat Detection and Response
-                        </p>
-                    </div>
-
-                    {/* Card 5 */}
-                    <div className="w-60 h-80 sm:w-72 sm:h-80 md:w-80 md:h-85 lg:w-85 lg:h-90 bg-white/5 border border-white/30 rounded-2xl backdrop-blur-sm p-6 sm:p-8 flex flex-col items-center justify-center text-center shadow-lg">
-                        <FaBookOpen className="text-[#9F7EE8] text-4xl sm:text-5xl md:text-6xl lg:text-7xl mb-4" />
-                        <p className="text-white text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold leading-tight">
-                            Inclusive Education & Digital Equality
-                        </p>
-                    </div>
-
-                    {/* Card 6 */}
-                    <div className="w-60 h-80 sm:w-72 sm:h-80 md:w-80 md:h-85 lg:w-85 lg:h-90 bg-white/5 border border-white/30 rounded-2xl backdrop-blur-sm p-6 sm:p-8 flex flex-col items-center justify-center text-center shadow-lg">
-                        <div className="icon-heart-pulse"></div>
-                        <p className="text-white text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold leading-tight">
-                            Open Innovation
-                        </p>
-                    </div>
+                    {/* Reusable card class */}
+                    {[
+                        {
+                            icon: <FaCity className="text-[#B19EEF]" />,
+                            text: "Smart Cities & Sustainable Urban Tech"
+                        },
+                        {
+                            icon: <FaHeartbeat className="text-[#9F7EE8]" />,
+                            text: "AI-Powered Health & Well-Being Solutions"
+                        },
+                        {
+                            icon: <FaLeaf className="text-[#52ca84]" />,
+                            text: "Clean Energy, Climate Action & GreenTech"
+                        },
+                        {
+                            icon: <FaShieldAlt className="text-[#B19EEF]" />,
+                            text: "Next Gen Cyber Threat Detection and Response"
+                        },
+                        {
+                            icon: <FaBookOpen className="text-[#9F7EE8]" />,
+                            text: "Inclusive Education & Digital Equality"
+                        },
+                        {
+                            icon: <FaLeaf className="text-[#52ca84]" />,
+                            text: "Open Innovations"
+                        }
+                    ].map((card, index) => (
+                        <div
+                            key={index}
+                            className="w-44 h-52 sm:w-56 sm:h-64 md:w-64 md:h-72
+           bg-white/5 border border-white/20 rounded-2xl backdrop-blur-md
+           p-5 flex flex-col items-center justify-center text-center
+           shadow-lg transition-all duration-300 hover:scale-105 hover:bg-white/10"
+                        >
+                            <div className="text-4xl sm:text-5xl mb-3">
+                                {card.icon}
+                            </div>
+                            <p className="text-white text-sm sm:text-base font-semibold leading-snug">
+                                {card.text}
+                            </p>
+                        </div>
+                    ))}
 
                 </div>
             </div>
