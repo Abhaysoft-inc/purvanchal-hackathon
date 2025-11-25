@@ -43,37 +43,56 @@ export default function Timeline() {
     ];
 
     return (
-        <div className="min-h-screen bg-[#060010] flex justify-center py-20">
-            <div className="w-11/12 max-w-4xl">
-                <h1 className="text-center text-6xl md:text-7xl font-black tracking-widest mb-20 bg-gradient-to-r from-[white] to-[white] bg-clip-text text-transparent" style={{ fontFamily: 'nexa, sans-serif' }}>
+        <div className="min-h-screen bg-[#060010] flex justify-center py-16">
+            <div className="w-11/12 max-w-3xl">
+
+                {/* Smaller title */}
+                <h1
+                    className="text-center text-4xl md:text-5xl font-black tracking-widest mb-14 
+                               bg-gradient-to-r from-white to-white bg-clip-text text-transparent"
+                    style={{ fontFamily: "nexa, sans-serif" }}
+                >
                     TIMELINE
                 </h1>
 
                 <div className="relative">
                     {timelineData.map((item, index) => (
-                        <div key={index} className="relative pl-20 pb-16 last:pb-0">
-                            {/* Vertical line */}
+                        <div key={index} className="relative pl-16 pb-12 last:pb-0">
+
+                            {/* Vertical line (smaller) */}
                             {index !== timelineData.length - 1 && (
-                                <div className="absolute left-8 top-16 bottom-0 w-0.5 bg-gradient-to-b from-[#B19EEF] to-transparent"></div>
+                                <div className="absolute left-6 top-12 bottom-0 w-0.5 bg-gradient-to-b from-[#B19EEF] to-transparent"></div>
                             )}
 
-                            {/* Number circle */}
-                            <div className="absolute left-0 top-0 w-16 h-16 rounded-full bg-gradient-to-br from-[#B19EEF] to-[#9F7EE8] flex items-center justify-center text-3xl font-bold text-white shadow-lg shadow-purple-500/30">
+                            {/* Number Circle (smaller) */}
+                            <div className="absolute left-0 top-0 w-12 h-12 rounded-full 
+                                            bg-gradient-to-br from-[#B19EEF] to-[#9F7EE8]
+                                            flex items-center justify-center 
+                                            text-xl font-bold text-white 
+                                            shadow-lg shadow-purple-500/30">
                                 {item.number}
                             </div>
 
-                            {/* Content card */}
-                            <div className="bg-gradient-to-br from-[#1a0f2e] to-[#0f0820] border border-[#B19EEF]/20 rounded-xl p-6 hover:border-[#B19EEF]/50 transition-all duration-300 hover:shadow-xl hover:shadow-purple-500/10">
-                                <h3 className="text-2xl font-bold text-[#B19EEF] mb-3">
+                            {/* Content card (smaller padding and font) */}
+                            <div className="bg-gradient-to-br from-[#1a0f2e] to-[#0f0820] 
+                                            border border-[#B19EEF]/20 
+                                            rounded-lg p-4 
+                                            hover:border-[#B19EEF]/50 
+                                            transition-all duration-300 hover:shadow-xl hover:shadow-purple-500/10">
+
+                                <h3 className="text-xl font-bold text-[#B19EEF] mb-2">
                                     {item.heading}
                                 </h3>
-                                <div className="text-gray-300 leading-relaxed">
+
+                                <div className="text-gray-300 text-sm leading-relaxed">
                                     {item.text}
                                 </div>
                             </div>
+
                         </div>
                     ))}
                 </div>
+
             </div>
         </div>
     );

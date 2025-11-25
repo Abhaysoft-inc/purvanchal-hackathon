@@ -52,7 +52,7 @@ const Faqs = () => {
 
   return (
     <div className="min-h-screen bg-[#060010] text-[#B19EEF] flex flex-col items-center px-4 py-12">
-      <h2 className="text-4xl font-bold text-[white] mb-10">FAQ's</h2>
+      <h2 className="text-3xl font-bold text-[white] mb-10 md:text-5xl lg:text-6xl" >FAQ's</h2>
 
       <div className="w-full max-w-3xl space-y-4">
         {faqs.map((faq, index) => (

@@ -29,8 +29,8 @@ const prizes = [
 
 const Prizes = () => {
   return (
-    <section className="bg-[#060010] text-[#CFFFE8] py-16 px-4">
-      <h2 className="text-center text-4xl md:text-5xl font-extrabold tracking-widest mb-12 md:mb-16">
+    <section className="bg-[#060010] text-[white] py-16 px-4">
+      <h2 className="text-center text-4xl md:text-5xl font-extrabold tracking-widest mb-12 md:mb-16" style={{ fontFamily: 'nexa, sans-serif' }}>
         PRIZES
       </h2>
 

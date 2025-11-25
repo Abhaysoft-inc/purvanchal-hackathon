@@ -6,7 +6,7 @@ export default function Tracks() {
             {/* Added top padding so nothing overlaps */}
 
             <div className="px-4 py-6">
-                <h1 className="text-[#52ca84] font-extrabold tracking-tight text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-center">
+                <h1 className="text-[white] font-extrabold tracking-tight text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-center" style={{ fontFamily: 'nexa, sans-serif' }}>
                     TRACKS
                 </h1>
 
