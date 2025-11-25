@@ -5,7 +5,7 @@ export default function Timeline() {
             heading: "Registrations Open",
             text: (
                 <>
-                    <b>25th-30th November</b><br />
+                    <b>25th-29th November</b><br />
                     All Aboard! Save your spot at Purvanchal Express student-run hackathon By Google Developer Group.
                 </>
             )
@@ -22,24 +22,20 @@ export default function Timeline() {
         },
         {
             number: "3",
-            heading: "Results for Round 1(Idea Submission Round)",
+            heading: "Results for Round 1 (Idea Submission Round)",
             text: "Shortlisted teams will be notified via email."
         },
         {
             number: "4",
-            heading: "Offline Round 2",
+            heading: "Offline Round on Campus",
             text: (
                 <>
                     <b>Date- 2nd December</b><br />
-                    IDEAS will be evaluated based on creativity, feasibility, and impact.
+                    Ideas will be evaluated based on creativity, feasibility, and impact.
                 </>
             )
         },
-        {
-            number: "5",
-            heading: "Results for Round 2",
-            text: "Winners will be announced and prize money will be distributed."
-        }
+
     ];
 
     return (
