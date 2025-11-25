@@ -14,6 +14,7 @@ const LandingPage = () => {
             <Navbar />
             <HeroSection />
             <AboutSection />
+      
             <Prizes />
             <Tracks />
             <Timeline />
