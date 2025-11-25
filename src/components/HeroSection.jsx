@@ -93,9 +93,19 @@ const HeroSection = () => {
                             </div>
 
                             <div className="mt-4">
-
-
-                                <p className="momo-trust-sans text-white text-2xl momo-trust-sans">2nd December 2025</p>
+                                <div className="flex flex-wrap items-center justify-center text-[10px] md:text-xs text-white/70 font-normal gap-x-2 gap-y-1 mt-2">
+                                    <span className="whitespace-nowrap flex items-center gap-x-1">
+                                        <span className="text-[#B19EEF]">Round 1:</span> Idea Submission (Online)
+                                        <span className="text-white/60">-</span>
+                                        <span>29 Nov 2025</span>
+                                    </span>
+                                    <span className="mx-2 text-white/40 hidden md:inline">|</span>
+                                    <span className="whitespace-nowrap flex items-center gap-x-1">
+                                        <span className="text-[#9F7EE8]">Round 2:</span> Prototype & Final (Offline)
+                                        <span className="text-white/60">-</span>
+                                        <span>2 Dec 2025</span>
+                                    </span>
+                                </div>
                             </div>
 
                             <div className='flex gap-4 justify-center mt-8'>
