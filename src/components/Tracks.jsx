@@ -2,7 +2,7 @@ import { FaCity, FaHeartbeat, FaLeaf, FaShieldAlt, FaBookOpen } from 'react-icon
 
 export default function Tracks() {
     return (
-        <div className="bg-[#060010] min-h-screen text-white pt-20">
+        <div className="bg-[#060010] min-h-screen text-white pt-8 md:pt-12">
             {/* Added top padding so nothing overlaps */}
 
             <div className="px-4 py-6">

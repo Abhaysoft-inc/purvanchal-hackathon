@@ -21,9 +21,9 @@ const Navbar = () => {
   const navLinks = [
     { to: "about", label: "About" },
     { to: "tracks", label: "Tracks" },
-    { to: "timeine", label: "Timeline" },
+    { to: "timeline", label: "Timeline" },
     { to: "faqs", label: "FAQs" },
-    { to: "sponsors", label: "Sponsors" },
+    // { to: "sponsors", label: "Sponsors" },
   ];
 
   return (
@@ -40,8 +40,9 @@ const Navbar = () => {
             {isOpen ? <X size={28} /> : <Menu size={28} />}
           </button>
 
-          <div className="logo hidden md:flex items-center gap-1">
-            <img className="w-10 h-10 rounded-full " src="/logo3.png" alt="logo" />
+          <div className="logo hidden md:flex items-center gap-2">
+
+            <img className="w-10 h-10 rounded-full" src="/log.png" alt="logo2" />
           </div>
 
           <div className="hidden md:flex items-center gap-8">
@@ -53,7 +54,7 @@ const Navbar = () => {
                 duration={500}
                 offset={-70}
                 spy={true}
-                activeClass="text-purple-500 underline"
+                activeClass="text-purple-500 "
                 className="cursor-pointer text-gray-100 hover:text-gray-100 text-lg"
               >
                 {link.label}

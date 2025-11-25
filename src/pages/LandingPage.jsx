@@ -13,14 +13,25 @@ const LandingPage = () => {
         <div>
             <Navbar />
             <HeroSection />
-            <AboutSection />
-      
-            <Prizes />
-            <Tracks />
-            <Timeline />
-            <Faqs />
+            <section id="about">
+                <AboutSection />
+            </section>
+            <section id="prizes" >
+                <Prizes />
+            </section>
+            <section id="tracks">
+                <Tracks />
+            </section>
+            <section id="timeline">
+                <Timeline />
+            </section>
+            <section id="faqs">
+                <Faqs />
+            </section>
+            <section id="sponsors">
+                {/* Add sponsors content here if available */}
+            </section>
             <Footer />
-
         </div>
     )
 }

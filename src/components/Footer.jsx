@@ -22,13 +22,13 @@ const Footer = () => {
             {/* Social Icons */}
             <div className="flex items-center gap-4 mt-3">
               <div className="flex gap-4 bg-white/5 border border-white/10 backdrop-blur-lg px-4 py-2 rounded-xl shadow-md">
-                <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.instagram.com/gdgoncampusknitsul" target="_blank" rel="noopener noreferrer">
                   <FaInstagram className="text-gray-300 text-xl hover:text-white transition-all duration-200 hover:scale-110" />
                 </a>
-                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.linkedin.com/company/gdg-on-campus-kamla-nehru-institute-of-technology" target="_blank" rel="noopener noreferrer">
                   <FaLinkedin className="text-gray-300 text-xl hover:text-white transition-all duration-200 hover:scale-110" />
                 </a>
-                <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+                <a href="https://x.com/gdgoncampusknit" target="_blank" rel="noopener noreferrer">
                   <FaTwitter className="text-gray-300 text-xl hover:text-white transition-all duration-200 hover:scale-110" />
                 </a>
                 <a href="mailto:gdgknit@knit.ac.in">
