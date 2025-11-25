@@ -3,7 +3,7 @@ import DotGrid from '../components/ui/DotGrid'
 import PixelBlast from '../components/ui/PixelBlast';
 const HeroSection = () => {
     return (
-        <div className='bg-[#060010] '>
+        <div className='bg-[#060010] w-full'>
 
             <div style={{ width: '100%', position: 'relative' }} className='h-screen'>
                 <PixelBlast
@@ -39,7 +39,7 @@ const HeroSection = () => {
                     <div className="absolute top-80 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-full">
                         <div className="text-center px-4">
                             <div>
-                                <h1 className="text-white text-4xl md:text-6xl lg:text-7xl font-bold animate-fade-in-up line-2" style={{ marginBottom: '1rem', fontFamily: 'nexa, sans-serif' }}>
+                                <h1 className="text-white text-5xl  md:text-6xl lg:text-7xl font-bold animate-fade-in-up line-2" style={{ marginBottom: '1rem', fontFamily: 'nexa, sans-serif' }}>
                                     Purvanchal Technical <br /> Hackathon
                                 </h1>
                             </div>
@@ -53,7 +53,7 @@ const HeroSection = () => {
                                     <img src='/unstop-btn.png' alt="Unstop" className='h-5 w-5' />
                                     Apply on Unstop
                                 </button>
-                                <button className='bg-transparent border text-white font-semibold text-lg hover:bg-[#9F7EE8] transition-all duration-300 transform shadow-lg hover:shadow-xl hover:text-[#060010]  rounded cursor-pointer' style={{ paddingLeft: '2rem', paddingRight: '2rem', paddingTop: '0.75rem', paddingBottom: '0.75rem' }}>
+                                <button className='bg-transparent border text-white font-semibold text-lg hover:bg-[#9F7EE8] transition-all duration-300 transform shadow-lg hover:shadow-xl hover:text-[#060010]  rounded cursor-pointer hidden md:block' style={{ paddingLeft: '2rem', paddingRight: '2rem', paddingTop: '0.75rem', paddingBottom: '0.75rem' }}>
                                     Learn More
                                 </button>
                             </div>

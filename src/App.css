@@ -14,10 +14,7 @@
     font-style: normal;
 }
 
-* {
-    padding: 0;
-    margin: 0;
-}
+
 
 /* Hero Section Animations */
 @keyframes fade-in-up {
