@@ -64,7 +64,7 @@ const HeroSection = () => {
 
                     <p className="absolute top-30 left-1/2 transform -translate-x-1/2 text-white text-lg font momo-trust-sans">Presents</p>
 
-                    <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-full">
+                    <div className="absolute top-100 md:top-80 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-full">
                         <div className="text-center px-4">
                             <div>
                                 <h1 className="text-white text-5xl md:text-6xl lg:text-7xl font-bold animate-fade-in-up line-2" style={{ marginBottom: '1rem', fontFamily: 'nexa, sans-serif' }}>
@@ -73,7 +73,7 @@ const HeroSection = () => {
                             </div>
 
                             <div className="mt-4">
-                                <p className="momo-trust-sans text-white text-xl momo-trust-sans">2 December 2025</p>
+                                <p className="momo-trust-sans text-white text-2xl momo-trust-sans">2nd December 2025</p>
                             </div>
 
                             <div className='flex gap-4 justify-center mt-8'>
@@ -87,7 +87,7 @@ const HeroSection = () => {
                             </div>
 
                             {/* Countdown Timer - Mobile Only */}
-                            <div className="md:hidden mt-8">
+                            <div className="md:hidden mt-10">
                                 <h2 className="text-white text-2xl font-bold mb-4" style={{ fontFamily: 'nexa, sans-serif', letterSpacing: '0.15em' }}>
                                     LIVE IN
                                 </h2>
