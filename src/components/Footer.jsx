@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaInstagram, FaLinkedin, FaTwitter, FaEnvelope } from "react-icons/fa";
+import { FaInstagram, FaLinkedin, FaTwitter, FaEnvelope, FaPhone } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -12,7 +12,7 @@ const Footer = () => {
 
           {/* Left Section */}
           <div className="col-span-2 flex flex-col gap-y-4">
-            <img className="w-32 rounded-xl" src="./logo3.jpg" alt="logo" />
+            <img className="w-50 rounded-xl" src="./logo3.jpg" alt="logo" />
 
             <p className="text-sm opacity-90 leading-relaxed">
               "Unleash your creativity, push your limits, and turn bold ideas into real innovation.
@@ -41,10 +41,10 @@ const Footer = () => {
           {/* Right Section */}
           <div className="col-span-1 mt-10 md:mt-0">
             <h1 className="text-xl font-semibold text-white mb-3">Get in touch</h1>
-            <p className="text-sm opacity-90">Parth Sohaney - +91 7392049577</p>
-            <p className="text-sm opacity-90">Ayush Jha - +91 7084683701</p>
-            <p className="text-sm opacity-90">Rajat Yadav - +91 7054479519</p>
-            <p className="text-sm opacity-90">gdgknit@knit.ac.in</p>
+            <p className="text-sm opacity-90 flex items-center gap-2"><FaPhone className="inline text-white/80 text-base" /> Parth Sohaney - +91 7392049577</p>
+            <p className="text-sm opacity-90 flex items-center gap-2"><FaPhone className="inline text-white/80 text-base" /> Ayush Jha - +91 7084683701</p>
+            <p className="text-sm opacity-90 flex items-center gap-2"><FaPhone className="inline text-white/80 text-base" /> Rajat Yadav - +91 7054479519</p>
+            <p className="text-sm opacity-90 flex items-center gap-2"><FaEnvelope className="inline text-white/80 text-base" /> gdgknit@knit.ac.in</p>
           </div>
         </div>
 
