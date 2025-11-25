@@ -13,11 +13,9 @@ import Prizes from '../components/Prizes.jsx'
 const LandingPage = () => {
     return (
         <div>
-            {/* <Navbar /> */}
+            <Navbar />
             <HeroSection />
             <AboutSection />
-            <Faqs />
-            {/* <AboutSection /> */}
             <Prizes />
             <Tracks />
             <Timeline />
