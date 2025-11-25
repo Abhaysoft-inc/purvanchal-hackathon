@@ -2,8 +2,11 @@ import React from 'react'
 import HeroSection from '../components/HeroSection.jsx'
 import AboutSection from '../components/AboutSection.jsx'
 import Navbar from '../components/Navbar.jsx'
+import Faqs from '../components/Faqs.jsx'
+import Timeline from '../components/Timeline.jsx'
 import Footer from '../components/Footer.jsx'
-
+import Tracks from '../components/Tracks.jsx'
+import Prizes from '../components/Prizes.jsx'
 
 const LandingPage = () => {
     return (
@@ -11,7 +14,13 @@ const LandingPage = () => {
             <Navbar />
             <HeroSection />
             <AboutSection />
-            <Footer/>
+      
+            <Prizes />
+            <Tracks />
+            <Timeline />
+            <Faqs />
+            <Footer />
+
         </div>
     )
 }
