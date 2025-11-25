@@ -10,7 +10,7 @@ export default function Tracks() {
                     TRACKS
                 </h1>
 
-                <div className="mt-10 flex justify-center flex-wrap gap-6">
+                <div className="mt-10 flex justify-center flex-wrap gap-6 w-full">
 
                     {/* Reusable card class */}
                     {[
@@ -41,7 +41,7 @@ export default function Tracks() {
                     ].map((card, index) => (
                         <div
                             key={index}
-                            className="w-44 h-52 sm:w-56 sm:h-64 md:w-64 md:h-72
+                            className="w-full sm:w-44 h-52 sm:h-64 md:w-64 md:h-72
            bg-white/5 border border-white/20 rounded-2xl backdrop-blur-md
            p-5 flex flex-col items-center justify-center text-center
            shadow-lg transition-all duration-300 hover:scale-105 hover:bg-white/10"

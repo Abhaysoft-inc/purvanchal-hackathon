@@ -68,7 +68,20 @@ const HeroSection = () => {
                         <div className="text-center px-4">
                             <div>
                                 <h1 className="text-white text-5xl md:text-6xl lg:text-7xl font-bold animate-fade-in-up line-2" style={{ marginBottom: '1rem', fontFamily: 'nexa, sans-serif' }}>
-                                    Purvanchal Technical <br /> Hackathon
+                                    <span
+                                        style={{
+                                            fontSize: '5.5vh',
+                                            fontFamily: 'nexa, sans-serif',
+                                            marginBottom: '1rem',
+                                            fontWeight: 'bold',
+                                            color: 'white',
+                                            lineHeight: 1.1,
+                                            display: 'inline-block',
+                                        }}
+                                        className="animate-fade-in-up line-2"
+                                    >
+                                        Purvanchal Technical <br /> Hackathon
+                                    </span>
                                 </h1>
                             </div>
 

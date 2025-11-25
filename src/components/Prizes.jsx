@@ -34,7 +34,7 @@ const Prizes = () => {
         PRIZES
       </h2>
 
-      <div className="flex flex-col md:flex-row justify-center items-center md:items-stretch gap-6 md:gap-8 max-w-5xl mx-auto">
+      <div className="flex flex-col md:flex-row justify-center items-center md:items-stretch gap-6 md:gap-8 w-full">
         {prizes.map((prize, index) => (
           <div
             key={prize.id}

@@ -39,8 +39,8 @@ export default function Timeline() {
     ];
 
     return (
-        <div className="min-h-screen bg-[#060010] flex justify-center py-16">
-            <div className="w-11/12 max-w-3xl">
+        <div className="min-h-screen bg-[#060010] flex justify-center py-16 px-4">
+            <div className="w-full">
 
                 {/* Smaller title */}
                 <h1
