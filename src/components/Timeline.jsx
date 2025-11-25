@@ -6,7 +6,7 @@ export default function Timeline() {
             text: (
                 <>
                     <b>25th-29th November</b><br />
-                    All Aboard! Save your spot at Purvanchal Express student-run hackathon By Google Developer Group.
+                    All Aboard! Save your spot at Purvanchal student-run hackathon By Google Developer Group on Campus KNIT.
                 </>
             )
         },
@@ -23,15 +23,25 @@ export default function Timeline() {
         {
             number: "3",
             heading: "Results for Round 1 (Idea Submission Round)",
-            text: "Shortlisted teams will be notified via email."
+            text: "Shortlisted teams will be notified via email & our social media platforms by 30th November ."
         },
         {
             number: "4",
             heading: "Offline Round on Campus",
             text: (
                 <>
-                    <b>Date- 2nd December</b><br />
+                    <b>Date- 2nd December 09:00 AM Onwards</b><br />
                     Ideas will be evaluated based on creativity, feasibility, and impact.
+                </>
+            )
+        },
+        {
+            number: "5",
+            heading: "Results and Prize Distribution",
+            text: (
+                <>
+                    <b>Date- 2nd December 09:00 PM Onwards</b><br />
+
                 </>
             )
         },
@@ -39,7 +49,7 @@ export default function Timeline() {
     ];
 
     return (
-        <div className="min-h-screen bg-[#060010] flex justify-center py-16 px-4">
+        <div className="min-h-screen bg-[#060010] flex justify-center py-16 px-4 lg:px-30">
             <div className="w-full">
 
                 {/* Smaller title */}

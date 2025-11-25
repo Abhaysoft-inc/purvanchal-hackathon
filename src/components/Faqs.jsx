@@ -40,9 +40,9 @@ const Faqs = () => {
         "No, the team size should be 2-4 members to enhance learning and collaboration.",
     },
     {
-      question: "Will there be food arrangements and accomadation?",
+      question: "Will there be food arrangements and accommodation?",
       answer:
-        "Yes, meals and accomodation will be provided to all registered participants during the event with aminimal payment.",
+        "Yes, meals and accommodation will be provided to all registered participants during the event with a minimal payment.",
     },
   ];
 

@@ -31,7 +31,7 @@ const Prizes = () => {
   return (
     <section className="bg-[#060010] text-[white] py-16 px-4">
       <h2 className="text-center text-4xl md:text-5xl font-extrabold tracking-widest mb-12 md:mb-16" style={{ fontFamily: 'nexa, sans-serif' }}>
-        PRIZES
+        PRIZES WORTH ₹30K
       </h2>
 
       <div className="flex flex-col md:flex-row justify-center items-center md:items-stretch gap-6 md:gap-8 w-full">

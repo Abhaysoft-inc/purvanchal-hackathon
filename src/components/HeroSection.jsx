@@ -67,8 +67,9 @@ const HeroSection = () => {
                     <div className="absolute top-100 md:top-80 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-full">
                         <div className="text-center px-4">
                             <div>
-                                <h1 className="text-white text-5xl md:text-6xl lg:text-7xl font-bold animate-fade-in-up line-2" style={{ marginBottom: '1rem', fontFamily: 'nexa, sans-serif' }}>
+                                <h1 className="text-white text-5xl md:text-6xl lg:text-8xl font-bold animate-fade-in-up line-2" style={{ marginBottom: '1rem', fontFamily: 'nexa, sans-serif' }}>
                                     <span
+                                        className="animate-fade-in-up line-2 hero-banner-text"
                                         style={{
                                             fontSize: '5.5vh',
                                             fontFamily: 'nexa, sans-serif',
@@ -78,14 +79,22 @@ const HeroSection = () => {
                                             lineHeight: 1.1,
                                             display: 'inline-block',
                                         }}
-                                        className="animate-fade-in-up line-2"
                                     >
                                         Purvanchal Technical <br /> Hackathon
                                     </span>
+                                    <style>{`
+                                        @media (min-width: 1024px) {
+                                            .hero-banner-text {
+                                                font-size: 10vh !important;
+                                            }
+                                        }
+                                    `}</style>
                                 </h1>
                             </div>
 
                             <div className="mt-4">
+
+
                                 <p className="momo-trust-sans text-white text-2xl momo-trust-sans">2nd December 2025</p>
                             </div>
 

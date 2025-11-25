@@ -41,7 +41,9 @@ const Footer = () => {
           {/* Right Section */}
           <div className="col-span-1 mt-10 md:mt-0">
             <h1 className="text-xl font-semibold text-white mb-3">Get in touch</h1>
-            <p className="text-sm opacity-90">7392049577</p>
+            <p className="text-sm opacity-90">Parth Sohaney - +91 7392049577</p>
+            <p className="text-sm opacity-90">Ayush Jha - +91 7084683701</p>
+            <p className="text-sm opacity-90">Rajat Yadav - +91 7054479519</p>
             <p className="text-sm opacity-90">gdgknit@knit.ac.in</p>
           </div>
         </div>

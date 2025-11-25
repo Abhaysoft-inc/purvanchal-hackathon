@@ -1,4 +1,5 @@
 import { FaCity, FaHeartbeat, FaLeaf, FaShieldAlt, FaBookOpen } from 'react-icons/fa';
+import { FiGlobe } from "react-icons/fi";
 
 export default function Tracks() {
     return (
@@ -35,7 +36,7 @@ export default function Tracks() {
                             text: "Inclusive Education & Digital Equality"
                         },
                         {
-                            icon: <FaLeaf className="text-[#52ca84]" />,
+                            icon: <FiGlobe className="text-[#52ca84]" />,
                             text: "Open Innovations"
                         }
                     ].map((card, index) => (
