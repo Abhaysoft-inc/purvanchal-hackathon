@@ -91,7 +91,7 @@ const HeroSection = () => {
 
                             <div className='flex gap-4 justify-center mt-8'>
                                 <a
-                                    href="https://pthknit.vercel.app/"
+                                    href="https://unstop.com/hackathons/purvanchal-technical-hackathon-kamla-nehru-institute-of-technology-knit-sultanpur-1600541"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className='bg-[#1c4980] text-white font-semibold text-lg hover:bg-[#9F7EE8] hover:text-[#060010] transition-all duration-300 transform shadow-lg hover:shadow-xl rounded cursor-pointer flex items-center gap-2'

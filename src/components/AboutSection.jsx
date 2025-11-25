@@ -50,7 +50,7 @@ const AboutSection = () => {
 
                             <div className="flex flex-wrap justify-center gap-4 pt-4 md:pt-6">
                                 <a
-                                    href="https://pthknit.vercel.app/"
+                                    href="https://unstop.com/hackathons/purvanchal-technical-hackathon-kamla-nehru-institute-of-technology-knit-sultanpur-1600541"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="bg-[#1c4980] text-white font-semibold text-sm md:text-base px-6 md:px-8 py-2.5 md:py-3 rounded hover:bg-[#9F7EE8] hover:text-[#060010] transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl inline-block"
