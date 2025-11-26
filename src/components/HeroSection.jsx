@@ -11,7 +11,7 @@ const HeroSection = () => {
     });
 
     useEffect(() => {
-        const targetDate = new Date('2025-12-02T00:00:00').getTime();
+        const targetDate = new Date('2026-02-18T00:00:00').getTime();
 
         const updateCountdown = () => {
             const now = new Date().getTime();
@@ -97,13 +97,13 @@ const HeroSection = () => {
                                     <span className="whitespace-nowrap flex items-center gap-x-1">
                                         <span className="text-[#B19EEF]">Round 1:</span> Idea Submission (Online)
                                         <span className="text-white/60">-</span>
-                                        <span>29 Nov 2025</span>
+                                        <span>18 Feb 2026</span>
                                     </span>
                                     <span className="mx-2 text-white/40 hidden md:inline">|</span>
                                     <span className="whitespace-nowrap flex items-center gap-x-1">
                                         <span className="text-[#9F7EE8]">Round 2:</span> Prototype & Final (Offline)
                                         <span className="text-white/60">-</span>
-                                        <span>2 Dec 2025</span>
+                                        <span>28 Feb 2026</span>
                                     </span>
                                 </div>
                             </div>

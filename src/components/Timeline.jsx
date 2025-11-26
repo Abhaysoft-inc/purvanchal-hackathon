@@ -5,7 +5,7 @@ export default function Timeline() {
             heading: "Registrations Open",
             text: (
                 <>
-                    <b>25th-29th November</b><br />
+                    <b>From 25 November 2025</b><br />
                     All Aboard! Save your spot at Purvanchal student-run hackathon By Google Developer Group on Campus KNIT.
                 </>
             )
@@ -15,7 +15,7 @@ export default function Timeline() {
             heading: "Registrations Close",
             text: (
                 <>
-                    <b>Last date - 29th November at 11:59 PM</b><br />
+                    <b>Last date - 18 Feb 2026 at 11:59 PM</b><br />
                     Gate Closes - Last chance to join the hacker caravan.
                 </>
             )
@@ -23,14 +23,14 @@ export default function Timeline() {
         {
             number: "3",
             heading: "Results for Round 1 (Idea Submission Round)",
-            text: "Shortlisted teams will be notified via email & our social media platforms by 30th November ."
+            text: "Shortlisted teams will be notified via email & our social media platforms by 20 Feb 2026 ."
         },
         {
             number: "4",
             heading: "Offline Round on Campus",
             text: (
                 <>
-                    <b>Date- 2nd December 09:00 AM Onwards</b><br />
+                    <b>Date- 28 Feb 09:00 AM Onwards</b><br />
                     Ideas will be evaluated based on creativity, feasibility, and impact.
                 </>
             )
@@ -40,7 +40,7 @@ export default function Timeline() {
             heading: "Results and Prize Distribution",
             text: (
                 <>
-                    <b>Date- 2nd December 09:00 PM Onwards</b><br />
+                    <b>Date- 28 Feb 09:00 PM Onwards</b><br />
 
                 </>
             )
