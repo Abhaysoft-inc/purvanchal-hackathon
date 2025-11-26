@@ -119,9 +119,13 @@ const HeroSection = () => {
                                     <img src='/unstop-btn.png' alt="Unstop" className='h-5 w-5' />
                                     Apply on Unstop
                                 </a>
-                                <button className='bg-transparent border text-white font-semibold text-lg hover:bg-[#9F7EE8] transition-all duration-300 transform shadow-lg hover:shadow-xl hover:text-[#060010] rounded cursor-pointer hidden ' style={{ paddingLeft: '2rem', paddingRight: '2rem', paddingTop: '0.75rem', paddingBottom: '0.75rem' }}>
+                                <a
+                                    href="#rulebook"
+                                    className='bg-transparent border text-white font-semibold text-lg hover:bg-[#9F7EE8] transition-all duration-300 transform shadow-lg hover:shadow-xl hover:text-[#060010] rounded cursor-pointer flex items-center justify-center'
+                                    style={{ paddingLeft: '2rem', paddingRight: '2rem', paddingTop: '0.75rem', paddingBottom: '0.75rem' }}
+                                >
                                     Rule Book
-                                </button>
+                                </a>
                             </div>
 
                             {/* Countdown Timer - Mobile Only */}

@@ -7,6 +7,7 @@ import Timeline from '../components/Timeline.jsx'
 import Footer from '../components/Footer.jsx'
 import Tracks from '../components/Tracks.jsx'
 import Prizes from '../components/Prizes.jsx'
+import Rulebook from '../components/Rulebook.jsx'
 
 const LandingPage = () => {
     return (
@@ -24,6 +25,9 @@ const LandingPage = () => {
             </section>
             <section id="timeline">
                 <Timeline />
+            </section>
+            <section id="rulebook">
+                <Rulebook />
             </section>
             <section id="faqs">
                 <Faqs />

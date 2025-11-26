@@ -22,6 +22,7 @@ const Navbar = () => {
     { to: "about", label: "About" },
     { to: "tracks", label: "Tracks" },
     { to: "timeline", label: "Timeline" },
+    { to: "rulebook", label: "Rulebook" },
     { to: "faqs", label: "FAQs" },
     // { to: "sponsors", label: "Sponsors" },
   ];

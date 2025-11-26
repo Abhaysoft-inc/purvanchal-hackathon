@@ -53,7 +53,7 @@ const Footer = () => {
 
         {/* Bottom Note */}
         <div className="text-center text-xs opacity-80">
-          <p>© 2025 GDG KNIT Sultanpur - All Rights Reserved | Made With ❤ by GDGoC KNIT</p>
+          <p>© 2025 GDG KNIT Sultanpur - All Rights Reserved | Made With ❤ by GDG On Campus KNIT</p>
         </div>
       </div>
     </div>
