@@ -27,7 +27,7 @@ const Faqs = () => {
     {
       question: "Where and how do I submit my PPT for Round 1?",
       answer:
-        "You can submit your PPT through the Unstop registration page till 29th November,2025.",
+        "You can submit your PPT through the Unstop registration page till 18 Feb,2026a.",
     },
     {
       question: "Where is it being held?",

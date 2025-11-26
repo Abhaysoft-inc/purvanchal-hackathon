@@ -37,7 +37,7 @@ const AboutSection = () => {
                             <div className="space-y-4 md:space-y-6">
                                 <p className="text-gray-200 text-base md:text-lg leading-relaxed tracking-wide font-light" style={{ wordSpacing: '0.1em', letterSpacing: '0.02em' }}>
                                     <span className="text-[#B19EEF] font-semibold">Google Developer Group KNIT Sultanpur</span> presents{' '}
-                                    <span className="text-[#9F7EE8] font-bold">Purvanchal Technical Hackathon</span> on December 2, 2025.
+                                    <span className="text-[#9F7EE8] font-bold">Purvanchal Technical Hackathon</span> on Feb 28, 2026.
                                     This flagship event brings together passionate developers, creative thinkers, and innovative teams from across the region.
                                 </p>
 
